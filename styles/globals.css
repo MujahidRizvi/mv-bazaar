@@ -1,0 +1,652 @@
+html {
+  width: 100%;
+  height: 100%;
+  background-color: #11181f;
+  background-repeat: no-repeat;
+  background-size: 100% 40%;
+  background-attachment: fixed;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#__next {
+  height: 100%;
+  width: 100%;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 7px;
+}
+
+.scroll::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #C3A164; 
+  border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px #C3A164; 
+}
+
+
+.react-multiple-carousel__arrow--left {
+  left: 0px !important;
+}
+
+.react-multiple-carousel__arrow--right {
+  right: 0px !important;
+}
+
+.rectangularCrousel > div   {
+  justify-content: center;
+}
+
+.heading1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 64px;
+}
+
+.subtext1 {
+  width: 600px;
+  font-size: 1.2vw;
+  line-height: 39px;
+}
+
+.headingdiv {
+  margin-top: 55px;
+}
+
+.playicon1 {
+  width: 27px;
+}
+
+.web_header {
+  z-index: 120;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.mob_header {
+  z-index: 120;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.backbutton {
+  font-size: 20px;
+}
+
+.headerNft {
+  margin-top: 0%;
+}
+.nftcontainer {
+  margin-top: -81px;
+}
+.nftimg {
+  box-shadow: -52px 200px 500px 43px grey;
+}
+* {
+  box-sizing: border-box;
+}
+
+.web_pageIntro {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.crousel {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.titleText {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+
+.mob_pageTabs {
+  display: flex;
+  justify-content: center;
+}
+
+.react-multi-carousel-item {
+  display: flex !important;
+  justify-content: center;
+}
+
+.ReactModal__Overlay {
+  z-index: 200;
+}
+
+@media only screen and (max-width: 710px) {
+  .web-minting {
+    display: none;
+  }
+
+  .mobile-minting {
+    display: visible;
+  }
+
+  /* NFT List */
+  .crousel {
+    width: 300px;
+  }
+  .header {
+    width: 300px;
+  }
+  .titleText {
+    width: 300px;
+  }
+  .titleText > span {
+    font-size: 12px;
+  }
+
+  .titleText > div {
+    font-size: 6px;
+  }
+
+  .sign_page_text {
+    width: 300px !important;
+  }
+
+  .sign_page_text > label {
+    font-size: 25px !important;
+    line-height: 35px !important;
+  }
+
+  /* show hide basis on mobile and web view */
+  .web_header {
+    display: none;
+  }
+
+  .mob_header {
+    display: visible;
+  }
+
+  .mob_pageTabs {
+    display: visible;
+  }
+
+  .web_pageTabs {
+    display: none;
+  }
+
+  .web_pageIntro > label {
+    font-size: 35px !important;
+  }
+
+  /* Header1 Lists */
+
+  .heading1 {
+    font-size: 27px;
+    line-height: 30px;
+  }
+
+  .subtext1 {
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  .subtext2 {
+    font-size: 16px;
+  }
+
+  .playicon1 {
+    width: 17px;
+    height: 12px;
+    margin-top: 16px;
+  }
+
+  .nftcontainer {
+    margin-top: 231px;
+  }
+  .nftimg {
+    box-shadow: -52px 200px 500px 83px grey;
+  }
+}
+
+@media only screen and (max-width: 1087px) and (min-width: 711px) {
+  .web-minting {
+    display: none;
+  }
+
+  .mobile-minting {
+    display: visible;
+  }
+  /* NFT List */
+  .crousel {
+    width: 640px;
+  }
+  .header {
+    width: 640px;
+  }
+  .titleText {
+    width: 640px;
+  }
+  .titleText > span {
+    font-size: 18px;
+  }
+
+  .titleText > div {
+    font-size: 10px;
+  }
+
+  /* show hide basis on mobile and web view */
+  .web_header {
+    display: visible;
+  }
+
+  .mob_header {
+    display: none;
+  }
+
+  .mob_pageTabs {
+    display: none;
+  }
+
+  .web_pageTabs {
+    display: visible;
+  }
+
+  /* Header1 */
+  .heading1 {
+    font-size: 53px;
+    line-height: 59px;
+  }
+  .headingdiv {
+    width: 600px;
+  }
+  .subtext1 {
+    font-size: 23px;
+  }
+  .subtext2 {
+    font-size: 23px;
+  }
+  .playicon1 {
+    width: 27px;
+    height: 20px;
+    margin-top: 10px;
+  }
+
+  .nftcontainer {
+    margin-top: 224px;
+    margin-right: 176px;
+    margin-left: 163px;
+  }
+  .nftimg {
+    box-shadow: -52px 200px 500px 83px grey;
+  }
+}
+
+@media only screen and (max-width: 1482px) and (min-width: 1088px) {
+  .web-minting {
+    display: visible;
+  }
+
+  .mobile-minting {
+    display: none;
+  }
+  /* NFT List */
+  .crousel {
+    width: 960px;
+  }
+  .header {
+    width: 960px;
+  }
+  .titleText {
+    width: 960px;
+  }
+  .titleText > span {
+    font-size: 24px;
+  }
+
+  .titleText > div {
+    font-size: 16px;
+  }
+
+  /* show hide basis on mobile and web view */
+  .web_header {
+    display: visible;
+  }
+
+  .mob_header {
+    display: none;
+  }
+
+  .mob_pageTabs {
+    display: none;
+  }
+
+  .web_pageTabs {
+    display: visible;
+  }
+
+  /* Header 1 */
+
+  .heading1 {
+    font-size: 50px;
+    line-height: 56px;
+  }
+
+  .headingdiv {
+    width: 620px;
+    margin-top: 90px;
+  }
+
+  .subtext1 {
+    font-size: 23px;
+  }
+
+  .subtext2 {
+    font-size: 24px;
+  }
+
+  .playicon1 {
+    width: 23.25px;
+    height: 20.25px;
+    margin-top: 11px;
+  }
+  .nftcontainer {
+    margin-top: -81px;
+    float: right;
+  }
+  .nftimg {
+    box-shadow: -52px 200px 500px 43px grey;
+  }
+  .headerNft {
+    margin-left: 63px;
+  }
+}
+
+@media only screen and (max-width: 1893px) and (min-width: 1483px) {
+  .web-minting {
+    display: visible;
+  }
+
+  .mobile-minting {
+    display: none;
+  }
+  .header {
+    width: 1280px;
+  }
+  /* NFT List */
+  .crousel {
+    width: 960px;
+  }
+  .react-multi-carousel-item {
+    width: 327px;
+  }
+  .titleText {
+    width: 960px;
+  }
+  .titleText > span {
+    font-size: 24px;
+  }
+
+  .titleText > div {
+    font-size: 16px;
+  }
+
+  /* show hide basis on mobile and web view */
+  .web_header {
+    display: visible;
+  }
+
+  .mob_header {
+    display: none;
+  }
+
+  .mob_pageTabs {
+    display: none;
+  }
+
+  .web_pageTabs {
+    display: visible;
+  }
+
+  /* Header 1 */
+
+  .heading1 {
+    font-size: 54px;
+  }
+  .headingdiv {
+    width: 600px;
+  }
+  .subtext1 {
+    font-size: 23px;
+  }
+  .subtext2 {
+    font-size: 24px;
+  }
+  .playicon1 {
+    height: 23px;
+    width: 30px;
+    margin-top: 11px;
+  }
+  .nftimg {
+    box-shadow: -52px 200px 500px 83px grey;
+  }
+  .nftcontainer {
+    float: right;
+  }
+}
+
+@media only screen and (max-width: 10000px) and (min-width: 1894px) {
+  .web-minting {
+    display: visible;
+  }
+
+  .mobile-minting {
+    display: none;
+  }
+  
+  /* NFT List */
+  .crousel {
+    width: 960px;
+    /* 1600 */
+  }
+  .header {
+    width: 1280px;
+  }
+  .homeHeader {
+    margin-top: 70px;
+  }
+  .react-multi-carousel-item {
+    width: 327px;
+  }
+  .titleText {
+    width: 960px;
+  }
+  .titleText > span {
+    font-size: 24px;
+  }
+
+  .titleText > div {
+    font-size: 16px;
+  }
+  /* show hide basis on mobile and web view */
+  .web_header {
+    display: visible;
+  }
+
+  .mob_header {
+    display: none;
+  }
+
+  .mob_pageTabs {
+    display: none;
+  }
+
+  .web_pageTabs {
+    display: visible;
+  }
+
+  /* Header1 */
+
+  .heading1 {
+    font-size: 58px;
+  }
+  .headingdiv {
+    width: 567px;
+    margin-top: 3%;
+  }
+  .subtext1 {
+    font-size: 25px;
+  }
+  .subtext2 {
+    font-size: 25px;
+  }
+  .playicon1 {
+    width: 25px;
+    height: 25px;
+    margin-top: 8px;
+  }
+  .nftcontainer {
+    margin-top: -170px;
+    float: right;
+  }
+  .headerNft {
+    margin-left: 38%;
+    margin-top: 4%;
+  }
+
+  .headingdiv {
+    width: 654px;
+  }
+  .nftimg {
+    box-shadow: -32px 33px 537px 167px grey;
+  }
+  .backbutton {
+    font-size: 28px;
+  }
+}
+
+/* For height (Only For Wallet Page) */
+@media only screen and (max-width: 1370px) {
+  html {
+    background-size: auto 40%;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.tabs {
+  opacity: 1;
+}
+
+/* adding Hover Css */
+
+
+
+.objectsdetail {
+  font-family: "Aktiv Grotesk Extended";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #0d1622;
+
+}
+
+.buttonhover:hover {
+  content: url("/images/bluebuttononhover.png") !important;
+}
+
+.hyperlink:hover {
+  color: #2c2c2c !important;
+}
+.backbutton :hover {
+  opacity: 0.7 !important;
+}
+.favicon {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted #2c2c2c;
+}
+
+.favicon .favicontext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #2c2c2c;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+.favicon:hover .favicontext {
+  visibility: visible;
+}
+
+.tabs:hover {
+  opacity: 0.7 !important;
+}
+.headingpageintro:hover {
+  background: radial-gradient(
+      81.47% 408.56% at 8.31% 43.62%,
+      #c4ee9c 0%,
+      #4df0e8 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */ !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  text-fill-color: transparent !important;
+}
+
+.headerimage {
+  -webkit-transition: 1s ease-in-out !important;
+  transition: 1s ease-in-out !important;
+  /* overflow: hidden !important; */
+}
+.headerimage:hover {
+  width: 530px !important;
+  /* height: 520px !important; */
+  -webkit-filter: brightness(115%) !important;
+}
+
+@font-face {
+  font-family: "Aktiv Grotesk Extended"; /*Can be any text*/
+  src: local("AktivGrotesk-Black"),
+    url("/fonts/AktivGroteskExtended/AktivGroteskEx-Regular.otf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "GrandSlang"; /*Can be any text*/
+  src: local("GrandSlang-Roman"),
+    url("/fonts/GrandSlangRoman/GrandSlang-Roman.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Aktiv Grotesk Thin"; /*Can be any text*/
+  src: local("AktivGrotesk-Black"),
+    url("/fonts/AktivGroteskExtended/AktivGroteskEx-Thin.otf")
+      format("truetype");
+}

@@ -1,0 +1,13 @@
+.profileSideBar{
+    z-index:1100;
+    position:absolute;
+    top:50px;
+    right:0;
+}
+.loader{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    top: calc(50% - 100px);
+}
